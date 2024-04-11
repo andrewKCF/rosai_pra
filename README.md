@@ -18,4 +18,5 @@ catkin_create_pkg rosai_pra std_msgs rospy roscpp sensor_msgs
 jetettc
 
 roslaunch usb_cam usb_cam-test.launch
+
 rosrun rqt_reconfigure rqt_reconfigure
