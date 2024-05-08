@@ -1,4 +1,9 @@
-# rosai_pra
+# rosai_pra 
+cd ~/ros_inference/src
+
+sudo rm -rf ~/ros_inference/src/rosai_pra
+
+git clone https://github.com/andrewKCF/rosai_pra.git
 
 roslaunch rosai_pra usb_cam.launch
 
@@ -25,3 +30,5 @@ catkin_create_pkg rosai_pra std_msgs rospy roscpp sensor_msgs cv_bridge
 catkin_create_pkg rosai_pra std_msgs rospy roscpp sensor_msgs
 
 jetettc
+
+
